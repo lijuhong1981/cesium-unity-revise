@@ -186,7 +186,7 @@ namespace CesiumForUnity
         private CesiumGlobeAnchor _globeAnchor;
 
         private Vector3 _velocity = Vector3.zero;
-        private float _lookSpeed = 10.0f;
+        // private float _lookSpeed = 10.0f;
 
         // These numbers are borrowed from Cesium for Unreal.
         private float _acceleration = 20000.0f;
@@ -198,7 +198,7 @@ namespace CesiumForUnity
         private AnimationCurve _maxSpeedCurve;
 
         private float _speedMultiplier = 1.0f;
-        private float _speedMultiplierIncrement = 1.5f;
+        // private float _speedMultiplierIncrement = 1.5f;
 
         // If the near clip gets too large, Unity will throw errors. Keeping it 
         // at this value works fine even when the far clip plane gets large.
